@@ -37,12 +37,14 @@ resolver: lts-8.5
 # will not be run. This is useful for tweaking upstream packages.
 packages:
 - '.'
+- ../open/dashdo
+- ../open/plotlyhs
+- ../open/lucid-extras
 
 
 # Dependency packages to be pulled from upstream that are not in the resolver
 # (e.g., acme-missiles-0.3)
-extra-deps:
-- plotlyhs-0.2
+extra-deps: []
 
 
 # Override default flag values for local packages and extra-deps
